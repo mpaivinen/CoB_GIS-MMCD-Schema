@@ -120,13 +120,13 @@
 				</CodedValues>
 			</Domain>
 			<Domain xsi:type='esri:CodedValueDomain'>
-                <DomainName>dWaterMainUnitType</DomainName>
-                <FieldType>esriFieldTypeString</FieldType>
-                <MergePolicy>esriMPTDefaultValue</MergePolicy>
-                <SplitPolicy>esriSPTDuplicate</SplitPolicy>
-                <Description>Water Main - Unit Type</Description>
-                <Owner>GIS</Owner>
-                <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+				<DomainName>dWaterMainUnitType</DomainName>
+				<FieldType>esriFieldTypeString</FieldType>
+				<MergePolicy>esriMPTDefaultValue</MergePolicy>
+				<SplitPolicy>esriSPTDuplicate</SplitPolicy>
+				<Description>Water Main - Unit Type</Description>
+				<Owner>GIS</Owner>
+				<CodedValues xsi:type='esri:ArrayOfCodedValue'>
 					<CodedValue xsi:type='esri:CodedValue'>
 						<Name>Water</Name>
 						<Code xsi:type='xs:string'>W</Code>
@@ -138,13 +138,13 @@
 				</CodedValues>
 			</Domain>
 			<Domain xsi:type='esri:CodedValueDomain'>
-                <DomainName>dWaterServiceLineUnitType</DomainName>
-                <FieldType>esriFieldTypeString</FieldType>
-                <MergePolicy>esriMPTDefaultValue</MergePolicy>
-                <SplitPolicy>esriSPTDuplicate</SplitPolicy>
-                <Description>Water Service Lines - Unit Type</Description>
-                <Owner>GIS</Owner>
-                <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+				<DomainName>dWaterServiceLineUnitType</DomainName>
+				<FieldType>esriFieldTypeString</FieldType>
+				<MergePolicy>esriMPTDefaultValue</MergePolicy>
+				<SplitPolicy>esriSPTDuplicate</SplitPolicy>
+				<Description>Water Service Lines - Unit Type</Description>
+				<Owner>GIS</Owner>
+				<CodedValues xsi:type='esri:ArrayOfCodedValue'>
 					<CodedValue xsi:type='esri:CodedValue'>
 						<Name>Irrigation Vault</Name>
 						<Code xsi:type='xs:string'>IRRVLT</Code>
@@ -164,67 +164,67 @@
 				</CodedValues>
 			</Domain>
 			<Domain xsi:type='esri:CodedValueDomain'>
-					<DomainName>dWaterFittingUnitType</DomainName>
-					<FieldType>esriFieldTypeString</FieldType>
-					<MergePolicy>esriMPTDefaultValue</MergePolicy>
-					<SplitPolicy>esriSPTDefaultValue</SplitPolicy>
-					<Description>Water Fitting Unit Type</Description>
-					<Owner>GIS</Owner>
-					<CodedValues xsi:type='esri:ArrayOfCodedValue'>
-						<CodedValue xsi:type='esri:CodedValue'>
-							<Name>Adaptor</Name>
-							<Code xsi:type='xs:string'>ADAPTR</Code>
-						</CodedValue>
-						<CodedValue xsi:type='esri:CodedValue'>
-							<Name>Bend 11 1/4 Degree</Name>
-							<Code xsi:type='xs:string'>11 1/4</Code>
-						</CodedValue>
-						<CodedValue xsi:type='esri:CodedValue'>
-							<Name>Bend 22 1/2 Degree</Name>
-							<Code xsi:type='xs:string'>22 1/2</Code>
-						</CodedValue>
-						<CodedValue xsi:type='esri:CodedValue'>
-							<Name>Bend 45 Degree</Name>
-							<Code xsi:type='xs:string'>45</Code>
-						</CodedValue>
-						<CodedValue xsi:type='esri:CodedValue'>
-							<Name>Bend 90 Degree</Name>
-							<Code xsi:type='xs:string'>90</Code>
-						</CodedValue>
-						<CodedValue xsi:type='esri:CodedValue'>
-							<Name>Bend Special</Name>
-							<Code xsi:type='xs:string'>SPECL</Code>
-						</CodedValue>
-						<CodedValue xsi:type='esri:CodedValue'>
-							<Name>Capped End</Name>
-							<Code xsi:type='xs:string'>CAPEND</Code>
-						</CodedValue>
-						<CodedValue xsi:type='esri:CodedValue'>
-							<Name>Coupling</Name>
-							<Code xsi:type='xs:string'>COUPLN</Code>
-						</CodedValue>
-						<CodedValue xsi:type='esri:CodedValue'>
-							<Name>Cross</Name>
-							<Code xsi:type='xs:string'>CROSS</Code>
-						</CodedValue>
-						<CodedValue xsi:type='esri:CodedValue'>
-							<Name>De-Chlorination Manhole</Name>
-							<Code xsi:type='xs:string'>DECHMH</Code>
-						</CodedValue>
-						<CodedValue xsi:type='esri:CodedValue'>
-							<Name>Reducer</Name>
-							<Code xsi:type='xs:string'>REDUCE</Code>
-						</CodedValue>
-						<CodedValue xsi:type='esri:CodedValue'>
-							<Name>Tap</Name>
-							<Code xsi:type='xs:string'>TAPPNG</Code>
-						</CodedValue>
-						<CodedValue xsi:type='esri:CodedValue'>
-							<Name>Tee</Name>
-							<Code xsi:type='xs:string'>TEE</Code>
-						</CodedValue>
-					</CodedValues>
-				</Domain>
+				<DomainName>dWaterFittingUnitType</DomainName>
+				<FieldType>esriFieldTypeString</FieldType>
+				<MergePolicy>esriMPTDefaultValue</MergePolicy>
+				<SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+				<Description>Water Fitting Unit Type</Description>
+				<Owner>GIS</Owner>
+				<CodedValues xsi:type='esri:ArrayOfCodedValue'>
+					<CodedValue xsi:type='esri:CodedValue'>
+						<Name>Adaptor</Name>
+						<Code xsi:type='xs:string'>ADAPTR</Code>
+					</CodedValue>
+					<CodedValue xsi:type='esri:CodedValue'>
+						<Name>Bend 11 1/4 Degree</Name>
+						<Code xsi:type='xs:string'>11 1/4</Code>
+					</CodedValue>
+					<CodedValue xsi:type='esri:CodedValue'>
+						<Name>Bend 22 1/2 Degree</Name>
+						<Code xsi:type='xs:string'>22 1/2</Code>
+					</CodedValue>
+					<CodedValue xsi:type='esri:CodedValue'>
+						<Name>Bend 45 Degree</Name>
+						<Code xsi:type='xs:string'>45</Code>
+					</CodedValue>
+					<CodedValue xsi:type='esri:CodedValue'>
+						<Name>Bend 90 Degree</Name>
+						<Code xsi:type='xs:string'>90</Code>
+					</CodedValue>
+					<CodedValue xsi:type='esri:CodedValue'>
+						<Name>Bend Special</Name>
+						<Code xsi:type='xs:string'>SPECL</Code>
+					</CodedValue>
+					<CodedValue xsi:type='esri:CodedValue'>
+						<Name>Capped End</Name>
+						<Code xsi:type='xs:string'>CAPEND</Code>
+					</CodedValue>
+					<CodedValue xsi:type='esri:CodedValue'>
+						<Name>Coupling</Name>
+						<Code xsi:type='xs:string'>COUPLN</Code>
+					</CodedValue>
+					<CodedValue xsi:type='esri:CodedValue'>
+						<Name>Cross</Name>
+						<Code xsi:type='xs:string'>CROSS</Code>
+					</CodedValue>
+					<CodedValue xsi:type='esri:CodedValue'>
+						<Name>De-Chlorination Manhole</Name>
+						<Code xsi:type='xs:string'>DECHMH</Code>
+					</CodedValue>
+					<CodedValue xsi:type='esri:CodedValue'>
+						<Name>Reducer</Name>
+						<Code xsi:type='xs:string'>REDUCE</Code>
+					</CodedValue>
+					<CodedValue xsi:type='esri:CodedValue'>
+						<Name>Tap</Name>
+						<Code xsi:type='xs:string'>TAPPNG</Code>
+					</CodedValue>
+					<CodedValue xsi:type='esri:CodedValue'>
+						<Name>Tee</Name>
+						<Code xsi:type='xs:string'>TEE</Code>
+					</CodedValue>
+				</CodedValues>
+			</Domain>
 			<Domain xsi:type='esri:CodedValueDomain'>
 				<DomainName>dHydrantUnitType</DomainName>
 				<FieldType>esriFieldTypeString</FieldType>
@@ -342,14 +342,14 @@
 				</CodedValues>
 			</Domain>
 			<Domain xsi:type='esri:CodedValueDomain'>
-                <DomainName>dPipeMaterial</DomainName>
-                <FieldType>esriFieldTypeString</FieldType>
-                <MergePolicy>esriMPTDefaultValue</MergePolicy>
-                <SplitPolicy>esriSPTDuplicate</SplitPolicy>
-                <Description>Pipe Material</Description>
-                <Owner>GIS</Owner>
-                <CodedValues xsi:type='esri:ArrayOfCodedValue'>
-                    <CodedValue xsi:type='esri:CodedValue'>
+				<DomainName>dPipeMaterial</DomainName>
+				<FieldType>esriFieldTypeString</FieldType>
+				<MergePolicy>esriMPTDefaultValue</MergePolicy>
+				<SplitPolicy>esriSPTDuplicate</SplitPolicy>
+				<Description>Pipe Material</Description>
+				<Owner>GIS</Owner>
+				<CodedValues xsi:type='esri:ArrayOfCodedValue'>
+					<CodedValue xsi:type='esri:CodedValue'>
 						<Name>Acrylonitrile Butadiene Styr.</Name>
 						<Code xsi:type='xs:string'>ABS</Code>
 					</CodedValue>
@@ -509,8 +509,8 @@
 						<Name>Not Known</Name>
 						<Code xsi:type='xs:string'>ZZZ</Code>
 					</CodedValue>
-                </CodedValues>
-            </Domain>
+				</CodedValues>
+			</Domain>
 			<Domain xsi:type='esri:CodedValueDomain'>
 				<DomainName>dPipeJointType</DomainName>
 				<FieldType>esriFieldTypeString</FieldType>

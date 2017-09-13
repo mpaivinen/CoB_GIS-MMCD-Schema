@@ -4,13 +4,13 @@
 		<Version/>
 		<Domains xsi:type='esri:ArrayOfDomain'>
 			<Domain xsi:type='esri:CodedValueDomain'>
-                <DomainName>dSanitaryServiceLineUnitType</DomainName>
-                <FieldType>esriFieldTypeString</FieldType>
-                <MergePolicy>esriMPTDefaultValue</MergePolicy>
-                <SplitPolicy>esriSPTDuplicate</SplitPolicy>
-                <Description>Sanitary Service Lines - Unit Type</Description>
-                <Owner>GIS</Owner>
-                <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+				<DomainName>dSanitaryServiceLineUnitType</DomainName>
+				<FieldType>esriFieldTypeString</FieldType>
+				<MergePolicy>esriMPTDefaultValue</MergePolicy>
+				<SplitPolicy>esriSPTDuplicate</SplitPolicy>
+				<Description>Sanitary Service Lines - Unit Type</Description>
+				<Owner>GIS</Owner>
+				<CodedValues xsi:type='esri:ArrayOfCodedValue'>
 					<CodedValue xsi:type='esri:CodedValue'>
 						<Name>Low Pressure San Forcemain</Name>
 						<Code xsi:type='xs:string'>LPSFM</Code>
@@ -22,13 +22,13 @@
 				</CodedValues>
 			</Domain>
 			<Domain xsi:type='esri:CodedValueDomain'>
-                <DomainName>dCombinedServiceLineUnitType</DomainName>
-                <FieldType>esriFieldTypeString</FieldType>
-                <MergePolicy>esriMPTDefaultValue</MergePolicy>
-                <SplitPolicy>esriSPTDuplicate</SplitPolicy>
-                <Description>Combined Service Lines - Unit Type</Description>
-                <Owner>GIS</Owner>
-                <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+				<DomainName>dCombinedServiceLineUnitType</DomainName>
+				<FieldType>esriFieldTypeString</FieldType>
+				<MergePolicy>esriMPTDefaultValue</MergePolicy>
+				<SplitPolicy>esriSPTDuplicate</SplitPolicy>
+				<Description>Combined Service Lines - Unit Type</Description>
+				<Owner>GIS</Owner>
+				<CodedValues xsi:type='esri:ArrayOfCodedValue'>
 					<CodedValue xsi:type='esri:CodedValue'>
 						<Name>Combined Future Sanitary</Name>
 						<Code xsi:type='xs:string'>CMB-S</Code>
@@ -44,13 +44,13 @@
 				</CodedValues>
 			</Domain>
 			<Domain xsi:type='esri:CodedValueDomain'>
-                <DomainName>dSanitaryMainUnitType</DomainName>
-                <FieldType>esriFieldTypeString</FieldType>
-                <MergePolicy>esriMPTDefaultValue</MergePolicy>
-                <SplitPolicy>esriSPTDuplicate</SplitPolicy>
-                <Description>Sanitary Main Unit Type</Description>
-                <Owner>GIS</Owner>
-                <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+				<DomainName>dSanitaryMainUnitType</DomainName>
+				<FieldType>esriFieldTypeString</FieldType>
+				<MergePolicy>esriMPTDefaultValue</MergePolicy>
+				<SplitPolicy>esriSPTDuplicate</SplitPolicy>
+				<Description>Sanitary Main Unit Type</Description>
+				<Owner>GIS</Owner>
+				<CodedValues xsi:type='esri:ArrayOfCodedValue'>
 					<CodedValue xsi:type='esri:CodedValue'>
 						<Name>Force Main</Name>
 						<Code xsi:type='xs:string'>F</Code>
@@ -66,13 +66,13 @@
 				</CodedValues>
 			</Domain>
 			<Domain xsi:type='esri:CodedValueDomain'>
-                <DomainName>dCombinedMainUnitType</DomainName>
-                <FieldType>esriFieldTypeString</FieldType>
-                <MergePolicy>esriMPTDefaultValue</MergePolicy>
-                <SplitPolicy>esriSPTDuplicate</SplitPolicy>
-                <Description>Combined Main Unit Type</Description>
-                <Owner>GIS</Owner>
-                <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+				<DomainName>dCombinedMainUnitType</DomainName>
+				<FieldType>esriFieldTypeString</FieldType>
+				<MergePolicy>esriMPTDefaultValue</MergePolicy>
+				<SplitPolicy>esriSPTDuplicate</SplitPolicy>
+				<Description>Combined Main Unit Type</Description>
+				<Owner>GIS</Owner>
+				<CodedValues xsi:type='esri:ArrayOfCodedValue'>
 					<CodedValue xsi:type='esri:CodedValue'>
 						<Name>Combined Sewer</Name>
 						<Code xsi:type='xs:string'>C</Code>
@@ -194,51 +194,51 @@
 				<Owner>GIS</Owner>
 				<CodedValues xsi:type='esri:ArrayOfCodedValue'>
 					<CodedValue xsi:type='esri:CodedValue'>
-						  <Name>Burnaby Combined Standard</Name>
-						  <Code xsi:type='xs:string'>B</Code>
-						 </CodedValue>
+						<Name>Burnaby Combined Standard</Name>
+						<Code xsi:type='xs:string'>B</Code>
+					</CodedValue>
 					<CodedValue xsi:type='esri:CodedValue'>
-						  <Name>Burnaby Drainage Standard</Name>
-						  <Code xsi:type='xs:string'>BD</Code>
-						 </CodedValue>
+						<Name>Burnaby Drainage Standard</Name>
+						<Code xsi:type='xs:string'>BD</Code>
+					</CodedValue>
 					<CodedValue xsi:type='esri:CodedValue'>
-						  <Name>Burnaby Sanitary Standard</Name>
-						  <Code xsi:type='xs:string'>BS</Code>
-						 </CodedValue>
+						<Name>Burnaby Sanitary Standard</Name>
+						<Code xsi:type='xs:string'>BS</Code>
+					</CodedValue>
 					<CodedValue xsi:type='esri:CodedValue'>
-						  <Name>Locked / Secured</Name>
-						  <Code xsi:type='xs:string'>L</Code>
-						 </CodedValue>
+						<Name>Locked / Secured</Name>
+						<Code xsi:type='xs:string'>L</Code>
+					</CodedValue>
 					<CodedValue xsi:type='esri:CodedValue'>
-						  <Name>Metro VancouverL</Name>
-						  <Code xsi:type='xs:string'>G</Code>
-						 </CodedValue>)
+						<Name>Metro VancouverL</Name>
+						<Code xsi:type='xs:string'>G</Code>
+					</CodedValue>)
 					<CodedValue xsi:type='esri:CodedValue'>
-						  <Name>Non Standard</Name>
-						  <Code xsi:type='xs:string'>N</Code>
-						 </CodedValue>
+						<Name>Non Standard</Name>
+						<Code xsi:type='xs:string'>N</Code>
+					</CodedValue>
 					<CodedValue xsi:type='esri:CodedValue'>
-						  <Name>Solid</Name>
-						  <Code xsi:type='xs:string'>S</Code>
-						 </CodedValue>
+						<Name>Solid</Name>
+						<Code xsi:type='xs:string'>S</Code>
+					</CodedValue>
 					<CodedValue xsi:type='esri:CodedValue'>
-						  <Name>Standard Two Hole</Name>
-						  <Code xsi:type='xs:string'>T</Code>
-						 </CodedValue>
+						<Name>Standard Two Hole</Name>
+						<Code xsi:type='xs:string'>T</Code>
+					</CodedValue>
 					<CodedValue xsi:type='esri:CodedValue'>
-						  <Name>Watertight</Name>
-						  <Code xsi:type='xs:string'>WT</Code>
-						 </CodedValue>
+						<Name>Watertight</Name>
+						<Code xsi:type='xs:string'>WT</Code>
+					</CodedValue>
 				</CodedValues>
 			</Domain>
 			<Domain xsi:type='esri:CodedValueDomain'>
-                <DomainName>dTapDirFlow</DomainName>
-                <FieldType>esriFieldTypeString</FieldType>
-                <MergePolicy>esriMPTDefaultValue</MergePolicy>
-                <SplitPolicy>esriSPTDuplicate</SplitPolicy>
-                <Description>Tap Flow Direction</Description>
-                <Owner>GIS</Owner>
-                <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+				<DomainName>dTapDirFlow</DomainName>
+				<FieldType>esriFieldTypeString</FieldType>
+				<MergePolicy>esriMPTDefaultValue</MergePolicy>
+				<SplitPolicy>esriSPTDuplicate</SplitPolicy>
+				<Description>Tap Flow Direction</Description>
+				<Owner>GIS</Owner>
+				<CodedValues xsi:type='esri:ArrayOfCodedValue'>
 					<CodedValue xsi:type='esri:CodedValue'>
 						<Name>Downstream</Name>
 						<Code xsi:type='xs:string'>D</Code>
@@ -600,10 +600,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>true</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPolygon</ShapeType>
@@ -999,10 +999,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPoint</ShapeType>
@@ -1268,10 +1268,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPolygon</ShapeType>
@@ -1771,10 +1771,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPolyline</ShapeType>
@@ -2262,10 +2262,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPolyline</ShapeType>
@@ -2744,10 +2744,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPolyline</ShapeType>
@@ -3135,10 +3135,10 @@
 						</ExtensionProperties>				
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPoint</ShapeType>
@@ -3526,10 +3526,10 @@
 						</ExtensionProperties>						
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPoint</ShapeType>
@@ -4008,10 +4008,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPolyline</ShapeType>
@@ -4302,10 +4302,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPoint</ShapeType>
@@ -4579,10 +4579,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPolygon</ShapeType>
@@ -4902,10 +4902,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPoint</ShapeType>
@@ -5440,10 +5440,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPolyline</ShapeType>
@@ -5831,10 +5831,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPoint</ShapeType>
@@ -6154,10 +6154,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPoint</ShapeType>
@@ -6548,10 +6548,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPoint</ShapeType>
@@ -7031,10 +7031,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPolyline</ShapeType>
@@ -7522,10 +7522,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPolyline</ShapeType>
@@ -7948,10 +7948,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>					
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>					
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPoint</ShapeType>
@@ -8177,10 +8177,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>true</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPolygon</ShapeType>
@@ -8679,10 +8679,10 @@
 						</ExtensionProperties>
 						<ControllerMemberships xsi:type='esri:ArrayOfControllerMembership'/>
 						<EditorTrackingEnabled>false</EditorTrackingEnabled>
-						<CreatorFieldName></CreatorFieldName>
-						<CreatedAtFieldName></CreatedAtFieldName>
-						<EditorFieldName></EditorFieldName>
-						<EditedAtFieldName></EditedAtFieldName>
+						<CreatorFieldName/>
+						<CreatedAtFieldName/>
+						<EditorFieldName/>
+						<EditedAtFieldName/>
 						<IsTimeInUTC>false</IsTimeInUTC>
 						<FeatureType>esriFTSimple</FeatureType>
 						<ShapeType>esriGeometryPolyline</ShapeType>
