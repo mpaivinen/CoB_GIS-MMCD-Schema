@@ -1,7 +1,7 @@
-<esri:Workspace xmlns:esri='http://www.esri.com/schemas/ArcGIS/10.3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema'>
+<esri:Workspace xmlns:esri='http://www.esri.com/schemas/ArcGIS/10.4' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema'>
 	<WorkspaceDefinition xsi:type='esri:WorkspaceDefinition'>
 		<WorkspaceType>esriRemoteDatabaseWorkspace</WorkspaceType>
-		<Version>SDE.QAQC</Version>
+		<Version/>
 		<Domains xsi:type='esri:ArrayOfDomain'>
 			<Domain xsi:type='esri:CodedValueDomain'>
                 <DomainName>dSanitaryServiceLineUnitType</DomainName>
@@ -416,7 +416,7 @@
 		</Domains>
 		<DatasetDefinitions xsi:type='esri:ArrayOfDataElement'>
 			<DataElement xsi:type='esri:DEFeatureDataset'>
-				<CatalogPath>/V=SDE.QAQC/FD=GIS.Sanitary</CatalogPath>
+				<CatalogPath>/FD=GIS.Sanitary</CatalogPath>
 				<Name>GIS.Sanitary</Name>
 				<MetadataRetrieved>true</MetadataRetrieved>
 				<Metadata xsi:type='esri:XmlPropertySet'>
@@ -425,7 +425,7 @@
 				</Metadata>
 				<Children xsi:type='esri:ArrayOfDataElement'>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Sanitary/FC=GIS.MetroVanSewerageAreas</CatalogPath>
+						<CatalogPath>/FD=GIS.Sanitary/FC=GIS.MetroVanSewerageAreas</CatalogPath>
 						<Name>GIS.MetroVanSewerageAreas</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -654,7 +654,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Sanitary/FC=GIS.SanitaryValve</CatalogPath>
+						<CatalogPath>/FD=GIS.Sanitary/FC=GIS.SanitaryValve</CatalogPath>
 						<Name>GIS.SanitaryValve</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -1053,7 +1053,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Sanitary/FC=GIS.SanitaryArea</CatalogPath>
+						<CatalogPath>/FD=GIS.Sanitary/FC=GIS.SanitaryArea</CatalogPath>
 						<Name>GIS.SanitaryArea</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -1322,7 +1322,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Sanitary/FC=GIS.SanitaryMain</CatalogPath>
+						<CatalogPath>/FD=GIS.Sanitary/FC=GIS.SanitaryMain</CatalogPath>
 						<Name>GIS.SanitaryMain</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -1825,7 +1825,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Sanitary/FC=GIS.CombinedMain</CatalogPath>
+						<CatalogPath>/FD=GIS.Sanitary/FC=GIS.CombinedMain</CatalogPath>
 						<Name>GIS.CombinedMain</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -2316,7 +2316,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Sanitary/FC=GIS.SanitaryServiceLine</CatalogPath>
+						<CatalogPath>/FD=GIS.Sanitary/FC=GIS.SanitaryServiceLine</CatalogPath>
 						<Name>GIS.SanitaryServiceLine</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -2798,7 +2798,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Sanitary/FC=GIS.SanitaryFitting</CatalogPath>
+						<CatalogPath>/FD=GIS.Sanitary/FC=GIS.SanitaryFitting</CatalogPath>
 						<Name>GIS.SanitaryFitting</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -3189,7 +3189,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Sanitary/FC=GIS.CombinedFitting</CatalogPath>
+						<CatalogPath>/FD=GIS.Sanitary/FC=GIS.CombinedFitting</CatalogPath>
 						<Name>GIS.CombinedFitting</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -3580,7 +3580,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Sanitary/FC=GIS.CombinedServiceLine</CatalogPath>
+						<CatalogPath>/FD=GIS.Sanitary/FC=GIS.CombinedServiceLine</CatalogPath>
 						<Name>GIS.CombinedServiceLine</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -4062,7 +4062,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Sanitary/FC=GIS.SCADA</CatalogPath>
+						<CatalogPath>/FD=GIS.Sanitary/FC=GIS.SCADA</CatalogPath>
 						<Name>GIS.SCADA</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -4356,7 +4356,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Sanitary/FC=GIS.SanitarySubCatchment</CatalogPath>
+						<CatalogPath>/FD=GIS.Sanitary/FC=GIS.SanitarySubCatchment</CatalogPath>
 						<Name>GIS.SanitarySubCatchment</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -4633,7 +4633,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Sanitary/FC=GIS.SanitaryLiftStation</CatalogPath>
+						<CatalogPath>/FD=GIS.Sanitary/FC=GIS.SanitaryLiftStation</CatalogPath>
 						<Name>GIS.SanitaryLiftStation</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -5002,7 +5002,7 @@
 				<ChangeTracked>false</ChangeTracked>
 			</DataElement>
 			<DataElement xsi:type='esri:DEFeatureDataset'>
-				<CatalogPath>/V=SDE.QAQC/FD=GIS.SanitaryHistory</CatalogPath>
+				<CatalogPath>/FD=GIS.SanitaryHistory</CatalogPath>
 				<Name>GIS.SanitaryHistory</Name>
 				<MetadataRetrieved>true</MetadataRetrieved>
 				<Metadata xsi:type='esri:XmlPropertySet'>
@@ -5011,7 +5011,7 @@
 				</Metadata>
 				<Children xsi:type='esri:ArrayOfDataElement'>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.SanitaryHistory/FC=GIS.CombinedServiceLineHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.SanitaryHistory/FC=GIS.CombinedServiceLineHistory</CatalogPath>
 						<Name>GIS.CombinedServiceLineHistory</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -5494,7 +5494,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.SanitaryHistory/FC=GIS.SanitaryFittingHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.SanitaryHistory/FC=GIS.SanitaryFittingHistory</CatalogPath>
 						<Name>GIS.SanitaryFittingHistory</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -5885,7 +5885,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.SanitaryHistory/FC=GIS.SanitaryLiftStationHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.SanitaryHistory/FC=GIS.SanitaryLiftStationHistory</CatalogPath>
 						<Name>GIS.SanitaryLiftStationHistory</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -6208,7 +6208,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.SanitaryHistory/FC=GIS.SanitaryValveHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.SanitaryHistory/FC=GIS.SanitaryValveHistory</CatalogPath>
 						<Name>GIS.SanitaryValveHistory</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -6602,7 +6602,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.SanitaryHistory/FC=GIS.SanitaryServiceLineHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.SanitaryHistory/FC=GIS.SanitaryServiceLineHistory</CatalogPath>
 						<Name>GIS.SanitaryServiceLineHistory</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -7085,7 +7085,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.SanitaryHistory/FC=GIS.CombinedMainHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.SanitaryHistory/FC=GIS.CombinedMainHistory</CatalogPath>
 						<Name>GIS.CombinedMainHistory</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -7576,7 +7576,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.SanitaryHistory/FC=GIS.CombinedFittingHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.SanitaryHistory/FC=GIS.CombinedFittingHistory</CatalogPath>
 						<Name>GIS.CombinedFittingHistory</Name>
 						<MetadataRetrieved>true</MetadataRetrieved>
 						<Metadata xsi:type='esri:XmlPropertySet'>
@@ -8002,7 +8002,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.SanitaryHistory/FC=GIS.SanitaryAreaHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.SanitaryHistory/FC=GIS.SanitaryAreaHistory</CatalogPath>
 						<Name>GIS.SanitaryAreaHistory</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -8231,7 +8231,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.SanitaryHistory/FC=GIS.SanitaryMainHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.SanitaryHistory/FC=GIS.SanitaryMainHistory</CatalogPath>
 						<Name>GIS.SanitaryMainHistory</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>

@@ -1,7 +1,7 @@
-<esri:Workspace xmlns:esri='http://www.esri.com/schemas/ArcGIS/10.3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema'>
+<esri:Workspace xmlns:esri='http://www.esri.com/schemas/ArcGIS/10.4' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema'>
 	<WorkspaceDefinition xsi:type='esri:WorkspaceDefinition'>
 		<WorkspaceType>esriRemoteDatabaseWorkspace</WorkspaceType>
-		<Version>SDE.QAQC</Version>
+		<Version/>
 		<Domains xsi:type='esri:ArrayOfDomain'>
 			<Domain xsi:type='esri:CodedValueDomain'>
 				<DomainName>dLightManufacturer</DomainName>
@@ -736,7 +736,7 @@
 		</Domains>
 		<DatasetDefinitions xsi:type='esri:ArrayOfDataElement'>
 			<DataElement xsi:type='esri:DEFeatureDataset'>
-				<CatalogPath>/V=SDE.QAQC/FD=GIS.Traffic</CatalogPath>
+				<CatalogPath>/FD=GIS.Traffic</CatalogPath>
 				<Name>GIS.Traffic</Name>
 				<MetadataRetrieved>true</MetadataRetrieved>
 				<Metadata xsi:type='esri:XmlPropertySet'>
@@ -745,7 +745,7 @@
 				</Metadata>
 				<Children xsi:type='esri:ArrayOfDataElement'>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Traffic/FC=GIS.TrafficCalming</CatalogPath>
+						<CatalogPath>/FD=GIS.Traffic/FC=GIS.TrafficCalming</CatalogPath>
 						<Name>GIS.TrafficCalming</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -1089,7 +1089,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Traffic/FC=GIS.TrafficCameras</CatalogPath>
+						<CatalogPath>/FD=GIS.Traffic/FC=GIS.TrafficCameras</CatalogPath>
 						<Name>GIS.TrafficCameras</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -1428,7 +1428,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Traffic/FC=GIS.TrafficSignals</CatalogPath>
+						<CatalogPath>/FD=GIS.Traffic/FC=GIS.TrafficSignals</CatalogPath>
 						<Name>GIS.TrafficSignals</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -1811,7 +1811,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Traffic/FC=GIS.ParkingMeters</CatalogPath>
+						<CatalogPath>/FD=GIS.Traffic/FC=GIS.ParkingMeters</CatalogPath>
 						<Name>GIS.ParkingMeters</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -2097,7 +2097,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Traffic/FC=GIS.BusShelters</CatalogPath>
+						<CatalogPath>/FD=GIS.Traffic/FC=GIS.BusShelters</CatalogPath>
 						<Name>GIS.BusShelters</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -2644,7 +2644,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Traffic/FC=GIS.StreetLightConduit</CatalogPath>
+						<CatalogPath>/FD=GIS.Traffic/FC=GIS.StreetLightConduit</CatalogPath>
 						<Name>GIS.StreetLightsConduit</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -3032,7 +3032,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Traffic/FC=GIS.StreetLights</CatalogPath>
+						<CatalogPath>/FD=GIS.Traffic/FC=GIS.StreetLights</CatalogPath>
 						<Name>GIS.StreetLights</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -3723,7 +3723,7 @@
 				<ChangeTracked>false</ChangeTracked>
 			</DataElement>
 			<DataElement xsi:type='esri:DEFeatureDataset'>
-				<CatalogPath>/V=SDE.QAQC/FD=GIS.TrafficHistory</CatalogPath>
+				<CatalogPath>/FD=GIS.TrafficHistory</CatalogPath>
 				<Name>GIS.TrafficHistory</Name>
 				<MetadataRetrieved>true</MetadataRetrieved>
 				<Metadata xsi:type='esri:XmlPropertySet'>
@@ -3732,7 +3732,7 @@
 				</Metadata>
 				<Children xsi:type='esri:ArrayOfDataElement'>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.TrafficHistory/FC=GIS.ParkingMetersHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.TrafficHistory/FC=GIS.ParkingMetersHistory</CatalogPath>
 						<Name>GIS.ParkingMetersHistory</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -4018,7 +4018,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.TrafficHistory/FC=GIS.BusSheltersHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.TrafficHistory/FC=GIS.BusSheltersHistory</CatalogPath>
 						<Name>GIS.BusSheltersHistory</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -4569,7 +4569,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.TrafficHistory/FC=GIS.TrafficCamerasHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.TrafficHistory/FC=GIS.TrafficCamerasHistory</CatalogPath>
 						<Name>GIS.TrafficCamerasHistory</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -4865,7 +4865,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.TrafficHistory/FC=GIS.StreetLightsHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.TrafficHistory/FC=GIS.StreetLightsHistory</CatalogPath>
 						<Name>GIS.StreetLightsHistory</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -5508,7 +5508,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.TrafficHistory/FC=GIS.TrafficSignalsHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.TrafficHistory/FC=GIS.TrafficSignalsHistory</CatalogPath>
 						<Name>GIS.TrafficSignalsHistory</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>

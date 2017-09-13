@@ -1,7 +1,7 @@
-<esri:Workspace xmlns:esri='http://www.esri.com/schemas/ArcGIS/10.3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema'>
+<esri:Workspace xmlns:esri='http://www.esri.com/schemas/ArcGIS/10.4' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema'>
 	<WorkspaceDefinition xsi:type='esri:WorkspaceDefinition'>
 		<WorkspaceType>esriRemoteDatabaseWorkspace</WorkspaceType>
-		<Version>SDE.QAQC</Version>
+		<Version/>
 		<Domains xsi:type='esri:ArrayOfDomain'>
 			<Domain xsi:type='esri:CodedValueDomain'>
 				<DomainName>dHistoryServiceStatus</DomainName>
@@ -310,7 +310,7 @@
 		</Domains>
 		<DatasetDefinitions xsi:type='esri:ArrayOfDataElement'>
 			<DataElement xsi:type='esri:DEFeatureDataset'>
-				<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage</CatalogPath>
+				<CatalogPath>/FD=GIS.Drainage</CatalogPath>
 				<Name>GIS.Drainage</Name>
 				<MetadataRetrieved>true</MetadataRetrieved>
 				<Metadata xsi:type='esri:XmlPropertySet'>
@@ -319,7 +319,7 @@
 				</Metadata>
 				<Children xsi:type='esri:ArrayOfDataElement'>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.RMA</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.RMA</CatalogPath>
 						<Name>GIS.RMA</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -620,7 +620,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.WaterwayReach</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.WaterwayReach</CatalogPath>
 						<Name>GIS.WaterwayReach</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -1055,7 +1055,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.Waterbody</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.Waterbody</CatalogPath>
 						<Name>GIS.Waterbody</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -1297,7 +1297,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.Culvert</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.Culvert</CatalogPath>
 						<Name>GIS.Culvert</Name>
 						<DatasetType>esriDTFeatureClass</DatasetType>
 						<DSID>1778</DSID>
@@ -1794,7 +1794,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.MajorDrainageCatchments</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.MajorDrainageCatchments</CatalogPath>
 						<Name>GIS.MajorDrainageCatchments</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -2069,7 +2069,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.RetentionBasin</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.RetentionBasin</CatalogPath>
 						<Name>GIS.RetentionBasin</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -2382,7 +2382,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.Ditch</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.Ditch</CatalogPath>
 						<Name>GIS.Ditch</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -2711,7 +2711,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.StormNode</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.StormNode</CatalogPath>
 						<Name>GIS.StormNode</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -3017,7 +3017,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.Waterway</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.Waterway</CatalogPath>
 						<Name>GIS.Waterway</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -3405,7 +3405,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.WaterwayMinor</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.WaterwayMinor</CatalogPath>
 						<Name>GIS.WaterwayMinor</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -3688,7 +3688,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.StormMain</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.StormMain</CatalogPath>
 						<Name>GIS.StormMain</Name>
 						<DatasetType>esriDTFeatureClass</DatasetType>
 						<DSID>1793</DSID>
@@ -4176,7 +4176,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.SchoolCatchBasin</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.SchoolCatchBasin</CatalogPath>
 						<Name>GIS.SchoolCatchBasin</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -4533,7 +4533,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.StormFitting</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.StormFitting</CatalogPath>
 						<Name>GIS.StormFitting</Name>						
 						<DatasetType>esriDTFeatureClass</DatasetType>
 						<DSID>1791</DSID>
@@ -4931,7 +4931,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.DrainageArea</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.DrainageArea</CatalogPath>
 						<Name>GIS.DrainageArea</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -5208,7 +5208,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.WaterwayReachBreak</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.WaterwayReachBreak</CatalogPath>
 						<Name>GIS.WaterwayReachBreak</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -5494,7 +5494,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.CatchBasinLead</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.CatchBasinLead</CatalogPath>
 						<Name>GIS.CatchBasinLead</Name>						
 						<DatasetType>esriDTFeatureClass</DatasetType>
 						<DSID>1788</DSID>
@@ -5916,7 +5916,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.Watersheds</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.Watersheds</CatalogPath>
 						<Name>GIS.Watersheds</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -6179,7 +6179,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.CatchBasin</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.CatchBasin</CatalogPath>
 						<Name>GIS.CatchBasin</Name>
 						<DatasetType>esriDTFeatureClass</DatasetType>
 						<DSID>1784</DSID>
@@ -6541,7 +6541,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.Dike</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.Dike</CatalogPath>
 						<Name>GIS.Dike</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -6864,7 +6864,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.StormServiceLine</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.StormServiceLine</CatalogPath>
 						<Name>GIS.StormServiceLine</Name>
 						<DatasetType>esriDTFeatureClass</DatasetType>
 						<DSID>1781</DSID>
@@ -7352,7 +7352,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.StormWaterSampleSite</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.StormWaterSampleSite</CatalogPath>
 						<Name>GIS.StormWaterSampleSite</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -7652,7 +7652,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.WaterwayBarrier</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.WaterwayBarrier</CatalogPath>
 						<Name>GIS.WaterwayBarrier</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -7944,7 +7944,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.StormLiftStation</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.StormLiftStation</CatalogPath>
 						<Name>GIS.StormLiftStation</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -8268,7 +8268,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.Wetland</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.Wetland</CatalogPath>
 						<Name>GIS.Wetland</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -8554,7 +8554,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.Drainage/FC=GIS.WaterwayEnhancement</CatalogPath>
+						<CatalogPath>/FD=GIS.Drainage/FC=GIS.WaterwayEnhancement</CatalogPath>
 						<Name>GIS.WaterwayEnhancement</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -8892,7 +8892,7 @@
 				<ChangeTracked>false</ChangeTracked>
 			</DataElement>			
 			<DataElement xsi:type='esri:DEFeatureDataset'>
-				<CatalogPath>/V=SDE.QAQC/FD=GIS.DrainageHistory</CatalogPath>
+				<CatalogPath>/FD=GIS.DrainageHistory</CatalogPath>
 				<Name>GIS.DrainageHistory</Name>
 				<MetadataRetrieved>true</MetadataRetrieved>
 				<Metadata xsi:type='esri:XmlPropertySet'>
@@ -8901,7 +8901,7 @@
 				</Metadata>
 				<Children xsi:type='esri:ArrayOfDataElement'>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.DrainageHistory/FC=GIS.DikeHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.DrainageHistory/FC=GIS.DikeHistory</CatalogPath>
 						<Name>GIS.DikeHistory</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -9208,7 +9208,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.DrainageHistory/FC=GIS.StormMainHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.DrainageHistory/FC=GIS.StormMainHistory</CatalogPath>
 						<Name>GIS.StormMainHistory</Name>
 						<DatasetType>esriDTFeatureClass</DatasetType>
 						<DSID>1917</DSID>
@@ -9697,7 +9697,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.DrainageHistory/FC=GIS.CulvertHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.DrainageHistory/FC=GIS.CulvertHistory</CatalogPath>
 						<Name>GIS.CulvertHistory</Name>
 						<DatasetType>esriDTFeatureClass</DatasetType>
 						<DSID>1918</DSID>
@@ -10194,7 +10194,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.DrainageHistory/FC=GIS.CatchBasinHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.DrainageHistory/FC=GIS.CatchBasinHistory</CatalogPath>
 						<Name>GIS.CatchBasinHistory</Name>
 						<DatasetType>esriDTFeatureClass</DatasetType>
 						<DSID>1926</DSID>
@@ -10553,7 +10553,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.DrainageHistory/FC=GIS.RetentionBasinHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.DrainageHistory/FC=GIS.RetentionBasinHistory</CatalogPath>
 						<Name>GIS.RetentionBasinHistory</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -10866,7 +10866,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.DrainageHistory/FC=GIS.DitchHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.DrainageHistory/FC=GIS.DitchHistory</CatalogPath>
 						<Name>GIS.DitchHistory</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -11165,7 +11165,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.DrainageHistory/FC=GIS.StormLiftStationHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.DrainageHistory/FC=GIS.StormLiftStationHistory</CatalogPath>
 						<Name>GIS.StormLiftStationHistory</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -11490,7 +11490,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.DrainageHistory/FC=GIS.StormFittingHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.DrainageHistory/FC=GIS.StormFittingHistory</CatalogPath>
 						<Name>GIS.StormFittingHistory</Name>
 						<DatasetType>esriDTFeatureClass</DatasetType>
 						<DSID>1922</DSID>
@@ -11887,7 +11887,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.DrainageHistory/FC=GIS.StormWaterSampleSiteHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.DrainageHistory/FC=GIS.StormWaterSampleSiteHistory</CatalogPath>
 						<Name>GIS.StormWaterSampleSiteHistory</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -12191,7 +12191,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.DrainageHistory/FC=GIS.DrainageAreaHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.DrainageHistory/FC=GIS.DrainageAreaHistory</CatalogPath>
 						<Name>GIS.DrainageAreaHistory</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -12428,7 +12428,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.DrainageHistory/FC=GIS.WaterwayHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.DrainageHistory/FC=GIS.WaterwayHistory</CatalogPath>
 						<Name>GIS.WaterwayHistory</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -12815,7 +12815,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.DrainageHistory/FC=GIS.CatchBasinLeadHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.DrainageHistory/FC=GIS.CatchBasinLeadHistory</CatalogPath>
 						<Name>GIS.CatchBasinLeadHistory</Name>
 						<DatasetType>esriDTFeatureClass</DatasetType>
 						<DSID>1916</DSID>
@@ -13239,7 +13239,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.DrainageHistory/FC=GIS.StormNodeHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.DrainageHistory/FC=GIS.StormNodeHistory</CatalogPath>
 						<Name>GIS.StormNodeHistory</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -13532,7 +13532,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.DrainageHistory/FC=GIS.StormServiceLineHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.DrainageHistory/FC=GIS.StormServiceLineHistory</CatalogPath>
 						<Name>GIS.StormServiceLineHistory</Name>
 						<DatasetType>esriDTFeatureClass</DatasetType>
 						<DSID>1913</DSID>

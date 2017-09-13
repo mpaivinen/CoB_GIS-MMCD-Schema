@@ -1,7 +1,7 @@
-<esri:Workspace xmlns:esri='http://www.esri.com/schemas/ArcGIS/10.3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema'>
+<esri:Workspace xmlns:esri='http://www.esri.com/schemas/ArcGIS/10.4' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema'>
 	<WorkspaceDefinition xsi:type='esri:WorkspaceDefinition'>
 		<WorkspaceType>esriRemoteDatabaseWorkspace</WorkspaceType>
-		<Version>SDE.QAQC</Version>
+		<Version/>
 		<Domains xsi:type='esri:ArrayOfDomain'>
 			<Domain xsi:type='esri:CodedValueDomain'>
 					<DomainName>dRoadPavementUnitType</DomainName>
@@ -92,12 +92,12 @@
 		</Domains>
 		<DatasetDefinitions xsi:type='esri:ArrayOfDataElement'>
 			<DataElement xsi:type='esri:DEFeatureDataset'>
-				<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreas</CatalogPath>
+				<CatalogPath>/FD=GIS.RoadPavementAreas</CatalogPath>
 				<Name>GIS.RoadPavementAreas</Name>
 				<MetadataRetrieved>false</MetadataRetrieved>				
 				<Children xsi:type='esri:ArrayOfDataElement'>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreas/FC=GIS.SidewalkRamps</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreas/FC=GIS.SidewalkRamps</CatalogPath>
 						<Name>GIS.SidewalkRamps</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -381,7 +381,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreas/FC=GIS.RoadPavement</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreas/FC=GIS.RoadPavement</CatalogPath>
 						<Name>GIS.RoadPavement</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>
 						<ChildrenExpanded>false</ChildrenExpanded>						
@@ -745,7 +745,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreas/FC=GIS.RoadBase</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreas/FC=GIS.RoadBase</CatalogPath>
 						<Name>GIS.RoadBase</Name>						
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -1127,7 +1127,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreas/FC=GIS.RoadMatrixAreas</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreas/FC=GIS.RoadMatrixAreas</CatalogPath>
 						<Name>GIS.RoadMatrixAreas</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -1365,7 +1365,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreas/FC=GIS.ParkingLots</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreas/FC=GIS.ParkingLots</CatalogPath>
 						<Name>GIS.ParkingLots</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -1663,7 +1663,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreas/FC=GIS.LanesPavement</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreas/FC=GIS.LanesPavement</CatalogPath>
 						<Name>GIS.LanesPavement</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -2024,7 +2024,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreas/FC=GIS.LaneBase</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreas/FC=GIS.LaneBase</CatalogPath>
 						<Name>GIS.LaneBase</Name>						
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -2420,7 +2420,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreas/FC=GIS.Sidewalks</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreas/FC=GIS.Sidewalks</CatalogPath>
 						<Name>GIS.Sidewalks</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -2791,7 +2791,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreas/FC=GIS.RoadAllowance</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreas/FC=GIS.RoadAllowance</CatalogPath>
 						<Name>GIS.RoadAllowance</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -3111,7 +3111,7 @@
 				<ChangeTracked>false</ChangeTracked>
 			</DataElement>
 			<DataElement xsi:type='esri:DEFeatureDataset'>
-				<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreasHistory</CatalogPath>
+				<CatalogPath>/FD=GIS.RoadPavementAreasHistory</CatalogPath>
 				<Name>GIS.RoadPavementAreasHistory</Name>
 				<MetadataRetrieved>true</MetadataRetrieved>
 				<Metadata xsi:type='esri:XmlPropertySet'>
@@ -3120,7 +3120,7 @@
 				</Metadata>
 				<Children xsi:type='esri:ArrayOfDataElement'>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreasHistory/FC=GIS.SidewalkRampsHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreasHistory/FC=GIS.SidewalkRampsHistory</CatalogPath>
 						<Name>GIS.SidewalkRampsHistory</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>	
 						<ChildrenExpanded>false</ChildrenExpanded>					
@@ -3404,7 +3404,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreasHistory/FC=GIS.SidewalksHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreasHistory/FC=GIS.SidewalksHistory</CatalogPath>
 						<Name>GIS.SidewalksHistory</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -3775,7 +3775,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreasHistory/FC=GIS.RoadMatrixAreasHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreasHistory/FC=GIS.RoadMatrixAreasHistory</CatalogPath>
 						<Name>GIS.RoadMatrixAreasHistory</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -4013,7 +4013,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreasHistory/FC=GIS.LaneBaseHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreasHistory/FC=GIS.LaneBaseHistory</CatalogPath>
 						<Name>GIS.LaneBaseHistory</Name>						
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -4407,7 +4407,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreasHistory/FC=GIS.RoadBaseHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreasHistory/FC=GIS.RoadBaseHistory</CatalogPath>
 						<Name>GIS.RoadBaseHistory</Name>
 						<ChildrenExpanded>false</ChildrenExpanded>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -4793,7 +4793,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreasHistory/FC=GIS.RoadPavementHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreasHistory/FC=GIS.RoadPavementHistory</CatalogPath>
 						<Name>GIS.RoadPavementHistory</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -5155,7 +5155,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreasHistory/FC=GIS.RoadAllowanceHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreasHistory/FC=GIS.RoadAllowanceHistory</CatalogPath>
 						<Name>GIS.RoadAllowanceHistory</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>						
 						<ChildrenExpanded>false</ChildrenExpanded>
@@ -5429,7 +5429,7 @@
 						<ChangeTracked>false</ChangeTracked>
 					</DataElement>
 					<DataElement xsi:type='esri:DEFeatureClass'>
-						<CatalogPath>/V=SDE.QAQC/FD=GIS.RoadPavementAreasHistory/FC=GIS.LanesPavementHistory</CatalogPath>
+						<CatalogPath>/FD=GIS.RoadPavementAreasHistory/FC=GIS.LanesPavementHistory</CatalogPath>
 						<Name>GIS.LanesPavementHistory</Name>
 						<MetadataRetrieved>false</MetadataRetrieved>
 						<ChildrenExpanded>false</ChildrenExpanded>
